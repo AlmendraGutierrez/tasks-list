@@ -1,0 +1,8 @@
+<!--El [ngStyle]="{'backgroud-color': color}" hace referencia al header.component.html donde introdujimos el color del boton-->
+<button 
+    class="btn" 
+    [ngStyle]="{'background-color': color}"
+    (click)="(onClick())"
+    >
+    {{text}}
+</button>
